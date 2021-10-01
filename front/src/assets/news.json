@@ -1,0 +1,14 @@
+[
+    {
+        "id": "news_1",
+        "title": "James Rodriguez told to rip up his Everton contract and follow Willian example",
+        "description": "James Rodriguez was linked with a move away from Everton this summer but remains at Goodison Park",
+        "image": "https://i2-prod.liverpoolecho.co.uk/incoming/article21476936.ece/ALTERNATES/s1200/0_James-Willian.jpg"
+    },
+    {
+        "id": "news_2",
+        "title": "India’s first building made of bio-bricks at IIT-Hyderabad is a great example of ‘wealth from waste’",
+        "description": "Developed to counter the air pollution caused by stubble burning, bio-bricks cost only about Rs 2-3 when mass-produced and can be an extra source of income for marginal farmers",
+        "image": "https://images.indianexpress.com/2021/09/cats-3.jpg"
+    }
+]

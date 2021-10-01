@@ -1,0 +1,25 @@
+
+<div style="text-align: center;">
+
+    <form (ngSubmit)="newsSubmit()"  [formGroup] = "newsFormGroup" >
+        <section>
+            <mat-form-field appearance="outline">
+                <mat-label>Nombre</mat-label>
+                <input matInput placeholder="Nombre" formControlName="name">
+                <mat-error *ngIf="newsFormGroup.controls['name'].hasError('required')">
+                    Un nombre es<strong>requerido</strong>
+                </mat-error>
+            </mat-form-field>
+        </section>
+        <section>
+            <mat-form-field appearance="outline">
+                <mat-label>Apellido</mat-label>
+                <input matInput placeholder="Apellido" formControlName="lastname">
+                <mat-error *ngIf="newsFormGroup.controls['lastname'].hasError('required')">
+                    Un apellido es<strong>requerido</strong>
+                </mat-error>
+            </mat-form-field>
+        </section>
+        <button mat-raised-button color="primary" type="submit" class="codeButton">Guardar</button>
+    </form>
+</div>
